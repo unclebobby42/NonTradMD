@@ -1,6 +1,7 @@
 import React from 'react';
 import { Input, FormInline, Container, Row, Col, Fa } from 'mdbreact';
-import './Search.css';
+
+import '../css/Search.css';
 
 class SearchPage extends React.Component {
   render() {

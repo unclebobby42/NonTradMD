@@ -34,10 +34,16 @@ import FormsPage from './pages/FormsPage';
 import ChartsPage from './pages/ChartsPage';
 import SearchPage from './pages/SearchPage';
 
+import BlogPage from './pages/BlogPage';
+import AboutMePage from './pages/AboutMePage';
+
 class Routes extends React.Component {
   render() {
     return (
       <Switch>
+        <Route exact path='/blog' component={BlogPage} />
+        <Route exact path='/aboutme' component={AboutMePage} />
+        
         {/* FREE */}
         <Route exact path='/' component={HomePage} />
         <Route exact path='/css' component={CSSPage} />
